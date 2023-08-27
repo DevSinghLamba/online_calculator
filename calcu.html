@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Calculator</h1>
+  </header>
+  <div class="calculator">
+    <video autoplay muted loop id="video-bg">
+      <source src="https://cdn.pixabay.com/vimeo/195696643/idyll-6774.mp4?width=640&hash=6302048ab16939558e420a22cb076fde2f1035aa" type="video/mp4">
+    </video>
+    <input type="text" id="display" readonly>
+    <div class="buttons">
+      <button class="operator">+</button>
+      <button class="operator">-</button>
+      <button class="operator">*</button>
+      <button class="operator">/</button>
+      <button id="clear">C</button>
+      <button id="enter">Enter</button>
+      <button class="number">1</button>
+      <button class="number">2</button>
+      <button class="number">3</button>
+      <button class="number">4</button>
+      <button class="number">5</button>
+      <button class="number">6</button>
+      <button class="number">7</button>
+      <button class="number">8</button>
+      <button class="number">9</button>
+      <button class="number">0</button>
+    </div>
+  </div>
+  <script src="calculator.js"></script>
+</body>
+</html>
